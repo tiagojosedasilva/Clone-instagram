@@ -1,0 +1,110 @@
+.body {
+    background-color: #fafafa;
+}
+.nav-top {
+    height: 63px; 
+    background-color: white !important; 
+    border-top:0.5px solid #dbdbdb; 
+    border-bottom:1px solid #dbdbdb;
+}
+.img-nav {
+    border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%; 
+    max-width:30px; 
+    max-height:25px;
+}
+.icons{
+    padding: 4%;
+    font-size: 20px;
+}
+.nav-container{
+    padding-left: 30% !important;
+    padding-right: 30% !important;
+}
+.form-control{
+    border-radius: 0.15rem !important;
+    border-color: white !important;
+    padding: 0%;
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 10px;
+}
+.img-profile{
+    border-radius: 100%;
+    max-width: 200px;
+    max-height: 150px;
+}
+.profile-datas{
+    font-size: 16px;
+}
+.username{
+    font-weight: 300;
+    font-size: 28px;
+}
+.button-edit{
+    color: black;
+    font-size: 14px !important;
+}
+.btn{
+    padding: 0.0rem .50rem !important;
+    border-color: lightslategray !important; 
+}
+.name{
+    font-size: 16px;
+    font-weight: 600 !important;
+}
+.profile-desc{
+    font-size: 16px;
+}
+.storys{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}.nav-feed{
+    border-bottom: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.nav-link-1 {
+    color: #495057;
+    background-color: #fafafa !important;
+    border-color: gray #fff #fff !important;
+    border-top-right-radius: .0rem !important;
+    border-top-left-radius: .0rem !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+.nav-link-2 {
+    color: #a2a8af;
+    background-color: #fafafa !important;
+    border-color: #fff #fff #fff !important;
+    border-top-right-radius: .0rem !important;
+    border-top-left-radius: .0rem !important;
+    font-size: 12px;
+    font-weight: 600;
+}.card {
+    border: 0px solid rgba(0,0,0,.125) !important;
+    border-radius: .0rem !important;
+}
+
+.card .card-img, .card-img-top {
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+}
+@media screen and (max-width: 1605px) {
+    .nav-container {
+        padding-left: 20% !important; 
+        padding-right: 20% !important;
+    }
+  }
+
+@media screen and (max-width: 992px) {
+    .nav-container {
+        padding-left: 5% !important; 
+        padding-right: 5% !important;
+    }
+}
